@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Form</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <form action="usermessage.html">
+   <h2>&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; 
+    &nbsp; &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  STUDENT DETAILS</h2>
+        <fieldset >
+        <legend><b><h3>Personal details</h3></b></legend>
+        <table>
+        <tr><td><label>First name</label></td><td><input type="text" required placeholder="eg:Prostil" pattern="[A-Za-z]{3,10}" ><br></td></tr>
+        <tr><td><label>Last name</label></td><td><input type="text" required placeholder="eg:Mangasule" pattern="[A-Za-z]{3,10}"><br></td></tr>
+        <tr><td><label>Mobile number</lable></td><td> <input type="tel" required placeholder="eg:7634352498" pattern="[6-9]{1}[0-9]{9}"><br></td></tr>
+        <tr><td><label for="">Age</label></td><td><input type="number" required placeholder="eg:21"><br></td></tr>
+        <tr><td><label>Email</label></td><td><input type="Email" required placeholder="eg:PSM@123" ><br></td></tr>
+          <tr><td><label>DOB</lable></td><td> <input type="date" required placeholder="eg:20/11/2001"><br></td></tr>
+        <tr><td><label>Gender</lable></td><td> <input type="radio" name="gender">male
+                                                <input type="radio"name="gender">female<br></td></tr>
+        <tr><td><label>select country</label></td>
+          <td><select name ="country">
+        <option value="India">India</option>
+        <option value="usa">usa</option>
+        <option value="china">china</option>
+        </select><br></td></tr>
+        
+        <tr><td><label>upload Photo</lable></td><td> <input type="file"><br></td></tr>
+        <tr><td><input type ="reset" class="two"></td></tr>
+        
+        </table>
+        </fieldset>
+
+
+        <fieldset>
+          <legend><b><h3>Eductional details</h3></b></legend>
+
+          <table>
+           
+        <label>College</label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <input type="text" required ><br>
+          
+            <label for="department">Department</label>
+          &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+          <input type="radio" name="Department">
+          <label for="CS">CS</label>
+          <input type="radio" name="Department">
+          <label for="Civil">Civil</label>
+          <input type="radio" name="Department">
+          <label for="EC">EC</label><br><br>
+  
+            <label for="yop">YOG</label>&nbsp; &nbsp; &nbsp; 
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <input  list="yog" id="yop" name="yop" required placeholder="eg:2023">
+          <datalist id="yog">
+              <option value="2018">2018</option>
+              <option value="2019">2019</option>
+              <option value="2020">2020</option>
+              <option value="2021">2021</option>
+              <option value="2022">2022</option>
+              <option value="2023">2023</option>
+  
+          </datalist>
+  <br>
+          <label for="">Skills</label>    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+          <input type="checkbox">
+          <label for="">HTML</label>
+          <input type="checkbox">
+          <label for="">JAVA</label>
+          <input type="checkbox">
+          <label for="">PYTHON</label>
+          <input type="checkbox">
+          <label for="">SQL</label>
+  <br>
+  <tr><td><label>comments</lable></td></tr>
+    <tr><td><textarea rows="4",cols="40"></textarea></td></tr>        
+  </table>  
+  <input type ="reset" class="two">  
+  
+  
+  </fieldset>
+  &nbsp; &nbsp; <input type="submit" id="one">
+   </form>  
+   
+ 
+</body>
+
+</html>
